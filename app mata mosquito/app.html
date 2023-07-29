@@ -8,13 +8,21 @@
     <script src="jogo.js"></script>
 </head>
 <body onresize="ajustaTamanhoPalcoJogo()">
+    <div class="painel">
+        <div class="vidas">
+            <img id="v1" src="imagens/coracao_cheio.png" alt="coracao cheio">
+            <img id="v2" src="imagens/coracao_cheio.png" alt="coracao cheio">
+            <img id="v3" src="imagens/coracao_cheio.png" alt="coracao cheio">
+        </div>
 
+        <div class="cronometro">Tempo restante: ?</div>
+    </div>
     
     <script>
         
         setInterval(function(){
             posicaoRandomica()
-        }, 1000)
+        }, 2000)
     </script>
     
 </body>
